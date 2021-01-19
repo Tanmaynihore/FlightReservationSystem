@@ -10,7 +10,13 @@ public class ticket {
     String seatno;
     float price;
     boolean cancelled;
-    String checkStatus();
-    int getFlightDuration();
-    cancel();
+    String checkStatus(){
+        return null;
+    }
+    int getFlightDuration(){
+        return 0;
+    }
+    void cancel(){
+
+    }
 }

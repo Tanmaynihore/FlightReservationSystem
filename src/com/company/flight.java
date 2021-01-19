@@ -5,8 +5,13 @@ public class flight {
     String airline;
     int capacity;
     int bookedSeats;
-    String getFlightDetails();
-    boolean checkAvailablity();
-    incrementBookingCounter();
+    void getFlightDetails(){ ;
+    }
+    void checkAvailablity(){
+
+    }
+    void incrementBookingCounter(){
+
+    }
 
 }
