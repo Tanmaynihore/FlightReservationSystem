@@ -1,6 +1,6 @@
 package com.company;
 
-public class touristTicket {
+public class TouristTicket extends Ticket{
    public String hotelAddress;
     public String[] selectTouristLocation;
 
@@ -10,6 +10,10 @@ public class touristTicket {
    public String[] getTouristLocations(){
 
        return new String[0];
+   }
+   TouristTicket()
+   {
+       super() ;
    }
    public void removeTouristLocation(String Location){
 

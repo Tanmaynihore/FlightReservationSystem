@@ -1,9 +1,9 @@
 package com.company;
 
-public class address {
-    String street;
-    String city;
-    String State;
+public class Address {
+   private String street;
+   private String city;
+   private String State;
     public String getAddressDetail(){
 
         return null;

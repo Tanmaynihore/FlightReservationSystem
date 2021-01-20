@@ -1,10 +1,10 @@
 package com.company;
 
-public class flight {
-    String FlightNumber;
-    String airline;
-    int capacity;
-    int bookedSeats;
+public class Flight {
+   public String FlightNumber;
+    private String airline;
+    private int capacity;
+    private int bookedSeats;
     void getFlightDetails(){ ;
     }
     void checkAvailablity(){
